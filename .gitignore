@@ -1,0 +1,36 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+*.dll
+*.exe
+
+# Ignore log and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore dependency directories
+node_modules/
+vendor/
+venv/
+__pycache__/
+target/
+build/
+dist/
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore environment variables or configuration
+.env
+*.local
+
+# Ignore Git merge conflict files
+*.orig
