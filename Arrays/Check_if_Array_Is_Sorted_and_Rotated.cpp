@@ -19,6 +19,6 @@ class Solution {
                     count++;
                 }
             }
-            return -1;
+            return 0;
         }
     };
